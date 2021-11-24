@@ -1,0 +1,28 @@
+.control-formulario{
+    
+    }
+
+
+
+.control{
+        width: 100%;
+        
+    }
+
+.control-formulario label{
+        display: block;
+        font-style: italic;
+    }
+    
+
+.boton-formulario{
+        background-color: #39b54a;
+        border: none;
+        font-size: 20px;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+
+
