@@ -1,1 +1,1 @@
-web: node ./public/views/home.html
+web: node home.html
