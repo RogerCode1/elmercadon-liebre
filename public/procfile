@@ -1,1 +1,1 @@
-web: /public/css/app.js
+web: node ./public/css/app.js
