@@ -6,7 +6,7 @@ const publicPath = path.resolve(__dirname, './public');
 
 app.use(express.static(publicPath));
 
-app.listen(3000, () => console.log('Servidor Arriba'));
+app.listen(process.env.PORT || 3000, () => console.log('Servidor Arriba'));
 
 
 app.get('/',function(req,res){
