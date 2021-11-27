@@ -10,21 +10,31 @@ body{
 }
 
 .main-header{
-    width: 100vw;
     font-size: 12px;
     background-color: #EAC926;
     padding: 15px;    
     position: fixed;
     top: 0;
+    width: 100vw;
 }
 
 .main-header-top-bar{
     width: 100vw;
+    
 }
 
- .logo{
-    width: 50%;
+ header .logo{
+    width: 30%;
     display: inline;
+    animation: logo 1s 10;
+    animation-direction: alternate;
+}
+
+@keyframes logo{
+    0%{ opacity: 0%}
+    100%{ opacity: 100%;
+        width: 20%;    
+    }
 }
 
 .search-bar, .search-bar .fas{
